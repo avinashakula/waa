@@ -1,0 +1,1 @@
+var mainUrl = "http://www.desireitservices.in";

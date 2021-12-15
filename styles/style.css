@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');  
+*{
+    padding:0;
+    margin:0
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gowun Dodum', sans-serif;
+}
+a {text-decoration: none;}
+.addressBlockMyorders{
+    /* border:1px solid #f7f7f7;
+    padding:1em;
+    margin:1em; */
+    font-size:0.8em
+}
+#orderStatus{
+    margin-bottom: 2em;
+    font-size:0.9em
+}
+.shippingStatusHeader p{
+    padding: 0.5em 1em;
+    margin:0
+}
+#footerBlock{
+    text-align: center;
+    background:#14a3c7;
+    color:white;
+    padding: 1em 1em
+}
+#footerBlock #footerLinks a{
+    display: inline-block;
+    text-decoration: underline;
+    color: white;
+    font-size: 1em;
+    margin:1em
+}
+#footerBlock #footerLinks a:hover{    
+    text-decoration: none;
+    font-size: 1em;
+}
+#footerBlock #footerDisclaimer{        
+    font-size: 0.8em;
+}
+#footerBlock #footerCopyrights{        
+    font-size: 1em;
+}
+#enquiryBlock{
+    background: #323536;
+    color: white;
+    padding: 1em;
+}
+#enquiryEmail{
+    margin-bottom:10px
+}
+#filtersAccordionResponsiveBlock{
+    font-size:16px
+}
+#filtersAccordionResponsiveButton{
+    border:none;
+}
+#filtersAccordion .accordion-body{
+    max-height: 200px;
+    overflow: auto;
+}
+#cartList .oTotal b{
+    font-size:24px
+}
+#cartList .oTotal span{
+    font-size: 14px;
+    display: block;
+}
+.ordersCards{
+    display: flex;
+}
+.ordersCards:hover{
+    cursor: pointer;
+    box-shadow: none;
+}
+.ordersCards .viewOrderDetails{
+    height:100%;
+    font-size: 2.5em;
+    border: none;
+    background:#effafd
+}
+.ordersCards .viewOrderDetails:hover{
+    background:#a4edff
+}
+.ordersCards:hover .viewOrderDetails{
+    background:#a4edff;    
+}
+.myorders-fullView-finalTotal{
+    font-size:18px
+}
+
